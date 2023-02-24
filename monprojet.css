@@ -1,0 +1,33 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: #4450f5;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.fa-briefcase, .fa-globe {
+    color: #fff200;
+}
+
+.para{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.image img {
+    object-fit: cover;
+}
+
+.section2 {
+    background-color: hsla(236, 73%, 65%, 0.658);;
+}
+
+.footer-end {
+    background-color: #4450f5;
+}

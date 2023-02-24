@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corest</title>
+    <link rel="stylesheet" href="corest.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/574902f221.js" crossorigin="anonymous"></script>
+</head>
+<body onload="alertInvite()">
+
+        <nav class="navbar navbar-expand-lg navbar-light d-flex flex-flow sticky-top shadow">
+            <div class="container">
+              <a class="navbar-brand text-white" href="#">COREST.</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active lead text-white" aria-current="page" href="monprojet.html">Nos Projets</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link lead text-white" href="#" onclick="getContact()">Contacts</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link lead text-white" href="learn.html">Apprendre</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link lead text-white" href="#" onclick="getDestin()">Destinations</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        <div class="section p-5">
+          <div class="container p-5">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1 class="mt-4 text-primary">Je Vous Souhaite <span>La Bienvenue</span> Sur Ce Site</h1>
+                    <p class="mt-5 para">Que pouvons-nous faire pour vous satisfaire?</p>
+                    <button class="btn btn-primary p-2 mt-5 lead shadow" onclick="search()">Retrouvez-Nous</button>
+                </div>
+                <div class="col-sm-6 text-center image">
+                    <img src="Mon projet (2).png" alt="image2" class="img-fluid mt-5" width="350" height="350">
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="section1">
+            <div class="container p-5">
+                <div class="row">
+                    <div class="col-sm-6 image">
+                        <img src="Mon projet (13).png" alt="image2" class="img-fluid mt-5" width="450" height="450">
+                    </div>
+                    <div class="col-sm-6">
+                        <button class="btn btn-primary p-2 mt-5 lead shadow" onclick="getHappy()">Nous sommes là pour vous satisfaire</button>
+                        <h2 class="mt-5">le terme faisant à l'origine référence aux messages envoyées à l'aide du service
+                            de messages courts(SMS). Il s'est dévéloppé au-déla du texte alphanumérique.
+                        </h2>
+                    </div>
+                </div>
+          </div>
+        </div>
+
+        <div class="section2 p-4">
+            <div class="container p-5 text-center">
+               <div class="text">
+                  <p class="h1">380</p>
+                  <em>followers<i class="fa-sharp fa-solid fa-star ps-1"></i><i class="fa-sharp fa-solid fa-star"></i>
+                  <i class="fa-sharp fa-solid fa-star"></i></em>
+                </div>
+                <div class="btn">
+                    <button class="btn btn-primary p-2 mt-5 lead shadow">Nos Activités</button>
+                </div>
+                <div class="text2">
+                  <p class="mt-4 lead text-primary">Que Pouvons Nous Faire Pour Vous ?</p>
+                </div>
+                <div class="row mt-5">
+                  <div class="col-sm-4 picture">
+                    <img src="Mon projet (5).png" alt="image" class="img-fluid mt-5" width="450" height="450">
+                  </div>
+                  <div class="col-sm-4 picture shadow">
+                    <img src="Mon projet.png" alt="image3" class="img-fluid" width="220" height="220">
+                  </div>
+                  <div class="col-sm-4 mt-1 picture">
+                    <img src="Mon projet (7).png" alt="image7" class="img-fluid" width="310" height="310">
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section3 p-5">
+            <div class="container p-5 text-center">
+             <div class="bt mt-3">
+              <button class="btn btn-light p-2 mt-3 lead shadow">Nos Activités</button>
+             </div>
+             <div class="text2 mt-5">
+              <p class="mt-4 lead text-light">Trouvez Tous Nos Idées Ici</p>
+            </div>
+            <div class="row mt-5">
+              <div class="col-sm-4 bg-dark text-white p-5">
+                  <p>Contenant des images numeriques, des vidéos et du contenu sonore,
+                    ainsi que des idéogrammes connus sous le nom d'emoji(visages heureux),
+                    visages tristes et autres
+                  </p><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
+              </div>
+              <div class="col-sm-8 p-5 bg-white">
+                <p class="mt-5" id="mytext">
+                  Vous pensez que les briques rouges ne sont utilisables que pour la construction des 
+                  maisons ? Il faut savoir que ce n’est désormais plus le cas. Les chercheurs ont trouvé 
+                  une méthode pour procéder au stockage d’énergie dans ces matériaux. Le dispositif obtenu 
+                  est nommé super condensateur.
+                </p><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
+              </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="footer p-4">
+          <div class="container p-5 text-center">
+            <div class="text2 mt-3">
+              <p class="mt-4 lead text-primary">En savoir plus ?</p>
+            </div>
+            <div class="form mt-5">
+              <label for="email" class="text-primary lead">Email:</label>
+              <input type="email" id="email" placeholder="Email" class="p-3 w-50" required>
+              <button type="button" class="btn btn-primary btn-lg" onclick="myEmailConnect()">Envoyez</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-end">
+          <div class="container p-3 text-center">
+            <div class="row">
+              <div class="col-sm-6 mt-5">
+                <blockquote class="blockquote-footer text-light">
+                  <i class="fa-sharp fa-solid fa-copyright text-white"></i>Made In Ci, Réservé aux droits de l'auteur
+                </blockquote>
+              </div>
+              <div class="col-sm-6 mt-4">
+                <a href="#" onclick="isCall()"><i class="fa-sharp fa-solid fa-phone text-light"></i></a>
+              </div>
+          </div>
+          </div>
+        </div>
+    <script src="corest.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Projet</title>
+    <link rel="stylesheet" href="monprojet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/574902f221.js" crossorigin="anonymous"></script>
+</head>
+<body onload="getPage()" onmouseover="mOver(this)" onmouseout="mOut(this)">
+
+    <nav class="navbar navbar-expand-lg navbar-light d-flex flex-flow sticky-top shadow">
+        <div class="container">
+          <a class="navbar-brand text-white" href="#">COREST.</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active lead text-white" aria-current="page" href="monprojet.html">Nos Projets</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link lead text-white" href="#" onclick="getContact()">Contacts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link lead text-white" href="learn.html">Apprendre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link lead text-white" href="#" onclick="getDestin()">Destinations</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+      <div class="section">
+        <div class="container-fluid p-5 text-center">
+            <p class="para text-primary">Nos Projets</p>
+            <div class="row mt-5">
+                <div class="col-sm-6">
+                    <img src="main.JPG" alt="main" class="img-fluid img-thumbnail">
+                    <div class="little-text mt-4">
+                        <a href="#"><i class="fa-sharp fa-solid fa-briefcase"></i></a>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <img src="main1.JPG" alt="main" class="img-fluid img-thumbnail">
+                    <div class="little-text mt-4">
+                        <a href="#"><i class="fa-sharp fa-solid fa-globe"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="section2">
+        <div class="container text-center p-5">
+            <p class="para text-primary text-light p-3">Nos Entreprises</p>
+            <div class="row">
+                <div class="col-sm-6 mt-4 image">
+                    <img src="main2.JPG" alt="main2" class="img-fluid shadow-lg" width="450" height="450">
+                </div>
+                <div class="col-sm-6 mt-3">
+                    <div class="text-one mt-5 para1">
+                        <p class="p-3 bg-secondary lead text-light shadow">Dévéloppez vos compétences avec nos entreprises pour vous assurez une bonne maitrîse de developpeur</p>
+                    </div>
+                    <div class="sign mt-5">
+                        <p class="lead text-light">2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="footer-end">
+          <div class="container p-3 text-center">
+            <div class="row">
+              <div class="col-sm-6 mt-5">
+                <blockquote class="blockquote-footer text-light">
+                  <i class="fa-sharp fa-solid fa-copyright text-white"></i>Made In Ci, Réservé aux droits de l'auteur
+                </blockquote>
+              </div>
+              <div class="col-sm-6 mt-4">
+                <a href="#" onclick="isCall()"><i class="fa-sharp fa-solid fa-phone text-light"></i></a>
+              </div>
+          </div>
+          </div>
+        </div>
+        <script src="corest.js"></script>
+        <script src="monproj.js"></script>
+</body>
+</html>

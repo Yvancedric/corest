@@ -1,0 +1,78 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: #4450f5;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+span {
+    color: #d6a68b;
+}
+
+.para {
+    color: #d6a68b;
+    font-size: 20px; 
+}
+
+.image img {
+    transition: transform ease-in-out;
+}
+
+.image img:hover {
+    transform: scale(1.5);
+    transition: all 2s;
+}
+
+.section1 {
+    background-color: #f5ecce;
+}
+
+h2:hover {
+    color: #4450f5;
+    transition: 1s;
+    cursor: progress;
+}
+
+.text p {
+    font-weight: bold;
+    font-size: 65px;
+    color: #d6a68b;
+    cursor: pointer;
+}
+
+.fa-star {
+    color: #fff200;
+    cursor: pointer;
+}
+
+.btn button {
+    background-color: #fff200;
+    color: #4450f5;
+    border: none;
+    padding: 12px 16px;
+}
+
+.text2 p {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.picture img:hover {
+    opacity: 0.4;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.section3 {
+    background-color: hsla(236, 73%, 65%, 0.658);
+}
+
+.footer-end {
+    background-color: #4450f5;
+}

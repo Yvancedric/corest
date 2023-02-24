@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apprendre</title>
+    <link rel="stylesheet" href="learn.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/574902f221.js" crossorigin="anonymous"></script>
+</head>
+<body id="body">
+    
+    <nav class="navbar navbar-expand-lg navbar-light d-flex flex-flow sticky-top shadow">
+        <div class="container">
+          <a class="navbar-brand text-white" href="#">COREST.</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active lead text-white" aria-current="page" href="monprojet.html">Nos Projets</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link lead text-white" href="#" onclick="getContact()">Contacts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link lead text-white" href="learn.html">Apprendre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link lead text-white" href="#" onclick="getDestin()">Destinations</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="section p-5">
+        <div class="container p-5 text-center">
+            <div class="row">
+                <div class="col-sm-8">
+                    <img src="Mon projet (4).png" alt="projet4" class="img-fluid" width="400" height="400">
+                </div>
+                <div class="col-sm-4 mt-5">
+                    <button type="button" class="btn btn-light text-dark mt-5" onclick="myWhite()">fond blanc</button>
+                    <button type="button" class="btn btn-dark text-light mt-5" onclick="myBlack()">fond noir</button>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="section1">
+            <div class="container p-5 text-center bg-light text-dark">
+                <h2 class="text-primary">Nos Temoignages</h2>
+                <div class="row">
+                    <div class="col-sm-6 mt-4 p-3">
+                        <p><i class="fa-sharp fa-solid fa-quote-right text-secondary"></i>
+                            Garder une motivation intacte au travail face aux différents aléas de la vie peut 
+                            parfois être une véritable épreuve, que l'on soit salarié ou entrepreneur. Vous 
+                            êtes confronté à des problèmes personnels, vous commencez à vous ennuyer dans votre 
+                            travail ou vous faites tout simplement face à un coup de fatigue passager, Il y a 
+                            de nombreuses raisons de perdre sa motivation au travail. Rien de grave tant que 
+                            cela n'atteint pas vos résultats, mais il est tout de même préférable de retrouver 
+                            rapidement votre motivation au risque d'être confronté à une situation délicate.</p>
+                    </div>
+                    <div class="col-sm-6 mt-4 p-3 bg-dark text-light">
+                        <p><i class="fa-sharp fa-solid fa-quote-right text-light"></i>
+                            Tout le monde est amené à se dire au moins une fois dans sa vie : «Je n'y arriverai jamais! ». 
+                            Ce manque de confiance en soi peut malheureusement être un véritable frein dans votre travail. 
+                            En effet, atteindre vos objectifs vous demandera nécessairement de sortir de votre zone de 
+                            confort. Or, pour cela, il faudra que vous soyez prêt à affronter vos peurs et vos doutes. 
+                            Grâce à ces citations, vous resterez motivé :
+                        </p>
+                    </div>
+                </div>
+            </div>
+      </div>
+
+      <div class="footer-end">
+          <div class="container p-3 text-center">
+            <div class="row">
+              <div class="col-sm-6 mt-5">
+                <blockquote class="blockquote-footer text-light">
+                  <i class="fa-sharp fa-solid fa-copyright text-white"></i>Made In Ci, Réservé aux droits de l'auteur
+                </blockquote>
+              </div>
+              <div class="col-sm-6 mt-4">
+                <a href="#" onclick="isCall()"><i class="fa-sharp fa-solid fa-phone text-light"></i></a>
+              </div>
+          </div>
+          </div>
+        </div>
+        <script src="corest.js"></script>
+        <script src="learn.js"></script>
+</body>
+</html>
